@@ -9,12 +9,12 @@ export default function task13() {
     {
       image: myimg,
       titel: "ahmad",
-      age: "25",
+      age: "24",
     },
     {
       image: myimg,
       titel: "rana",
-      age: "30",
+      age: "22",
     },
     {
       image: myimg,
@@ -33,7 +33,7 @@ export default function task13() {
     },
   ];
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex" , gap:"5px" }}>
       {cards.map((card) => (
         <div>
           <img
