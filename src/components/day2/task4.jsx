@@ -7,14 +7,14 @@ function ToggleTheme() {
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
-
-  return (
+ 
+  return (  
     <div style={{height:"100px"}} className={isDarkMode ? "dark-mode" : "light-mode"}>
       <button onClick={toggleTheme}>
         {isDarkMode ? "lightmode" : "darkmode"}
       </button>
     </div>
   );
-}
+} 
 
 export default ToggleTheme;
