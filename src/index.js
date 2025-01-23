@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./components/pages/home";
-import About from "./components/pages/about";
-import Contact from "./components/pages/contact";
-import ErrorPage from "./components/pages/Erorr";
+import Home from "./components/pagas/home";
+import About from "./components/pagas/about";
+import Contact from "./components/pagas/contact";
+import ErrorPage from "./components/pagas/Erorr";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
